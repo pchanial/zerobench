@@ -68,6 +68,7 @@ addopts = [
     '--strict-config',
     '--color=yes',
     '--cov=zerobench',
+    '--no-cov-on-fail',
 ]
 filterwarnings = [
     'ignore::DeprecationWarning',
